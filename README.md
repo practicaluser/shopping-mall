@@ -1,4 +1,5 @@
-![header]([https://capsule-render.vercel.app/api?type=shark&height=300&color=gradient&text=쇼핑몰 프로젝트%20](https://capsule-render.vercel.app/api?type=shark&height=300&color=gradient&text=쇼핑몰%20프로젝트))]
+![쇼핑몰 프로젝트](https://capsule-render.vercel.app/api?type=shark&height=300&color=gradient&text=쇼핑몰%20프로젝트)
+
 
 # webshopping
 
