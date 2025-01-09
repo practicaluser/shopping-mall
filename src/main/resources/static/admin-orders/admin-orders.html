@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Shopping Mall</title>
+    <!-- 아이콘 -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/elice-rabbit-favicon.png"
+    />
+    <!-- bulma css -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"
+    />
+    <!-- 폰트 어썸: 아이콘 -->
+    <script
+      defer
+      src="https://kit.fontawesome.com/9daa42bcef.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- 커스텀 css, js -->
+    <link rel="stylesheet" href="/admin-orders/admin-orders.css" />
+    <script src="/admin-orders/admin-orders.js" type="module" defer></script>
+    <script src="/category/nav.js" defer></script>
+  </head>
+  <body>
+    <!-- 헤더 -->
+    <div id="navContainer"></div>
+
+    <!-- 주문관리 -->
+    <section class="section">
+      <div class="container">
+
+        <!-- 검색창 -->
+        <div class="block">
+          <div class="field has-addons">
+            <div class="control">
+              <input
+                      id="searchInput"
+                      class="input"
+                      type="text"
+                      placeholder="검색하고자 하는 아이디를 입력하세요"
+              />
+            </div>
+            <div class="control">
+              <button id="searchButton" class="button is-info">검색</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- 제목 -->
+        <div class="block account-header">
+          <h1 class="subtitle is-4">주문관리</h1>
+        </div>
+
+        <form class="sortForm">
+          <select name="sort-method" id="sort-method">
+            <option value="오름차순">오름차순</option>
+            <option value="내림차순">내림차순</option>
+          </select>
+          <select name="sort-standard" id="sort-standard">
+            <option value="날짜" class="date">날짜</option>
+            <option value="사용자 ID" class="user">사용자 ID</option>
+            <option value="주문총액" class="order">주문총액</option>
+          </select>
+          <button id="sort-button">정렬하기</button>
+        </form>
+
+
+        <div class="container orders-container" id="ordersContainer">
+          <div
+            class="columns notification is-info is-light is-mobile orders-top"
+          >
+            <div class="column is-2">주문날짜</div>
+            <div class="column is-2">주문한 사용자 ID</div>
+            <div class="column is-4">주문정보</div>
+            <div class="column is-2">주문총액</div>
+            <div class="column is-2">주문상태</div>
+          </div>
+
+
+        </div>
+      </div>
+    </section>
+
+  </body>
+</html>

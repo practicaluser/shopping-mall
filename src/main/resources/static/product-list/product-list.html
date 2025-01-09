@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Shopping Mall</title>
+  <!-- 아이콘 -->
+  <link
+          rel="icon"
+          type="image/png"
+          sizes="16x16"
+          href="/elice-rabbit-favicon.png"
+  />
+  <!-- bulma css 관련 -->
+  <link
+          rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"
+  />
+  <!-- 폰트 어썸: 아이콘 -->
+  <script
+          defer
+          src="https://kit.fontawesome.com/9daa42bcef.js"
+          crossorigin="anonymous"
+  ></script>
+  <!-- AWS S3 사용하기 위한 파일 -->
+  <script src="https://sdk.amazonaws.com/js/aws-sdk-2.410.0.min.js"></script>
+  <!-- 커스텀 css, js -->
+  <link rel="stylesheet" href="/product-list/product-list.css" />
+  <script src="/product-list/product-list.js" type="module" defer></script>
+  <script src="/category/nav.js" defer></script>
+</head>
+<body>
+<!-- 헤더 -->
+<div id="navContainer"></div>
+
+<!-- 제품 목록 -->
+<section class="section">
+  <div class="container product-item-container" id="productItemContainer">
+    <!-- api 요청 후 만들어진 제품들 카드 요소가 삽입되는 곳 -->
+  </div>
+  <br>
+  <nav class="pagination is-centered" id="pagination" role="navigation" aria-label="pagination">
+    <!-- 페이지 버튼이 동적으로 추가될 위치 -->
+  </nav>
+</section>
+
+</body>
+</html>
