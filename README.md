@@ -1,5 +1,4 @@
-[[![header](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=300&section=header&text=삼삼오오&fontSize=90&fontAlignY=40&desc=Elice%20Cloud%20Track%205기&descAlign=70)](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=300&section=header&text=삼삼오오&fontSize=90&fontAlignY=40&desc=Elice%20Cloud%20Track%205기&descAlign=70&fontColor=ffffff&descFontSize=40&animation=fadeIn
-)](https://capsule-render.vercel.app/api?type=shark&height=300&color=gradient&text=삼삼오오%20)
+[[![header](https://capsule-render.vercel.app/api?type=shark&height=300&color=gradient&text=삼삼오오%20)
 
 # webshopping
 
