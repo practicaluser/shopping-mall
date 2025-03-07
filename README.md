@@ -105,7 +105,4 @@
     - id: testuser <br>
     - pwd: testuser <br>
 <br>
-어드민 <br>
-    - admin: admin <br>
-    - pwd: 12345678 <br>
-<br>
+
