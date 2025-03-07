@@ -102,13 +102,6 @@
     - 요청사항은 선택사항으로 입력
 - **주문 조회**
     - 주문 상태가 목록에서 표시
-
-## 프로젝트 도메인
-http://elice5-webshopping.duckdns.org/
-
-
-## 테스트 아이디
-유저 <br>
     - id: testuser <br>
     - pwd: testuser <br>
 <br>
